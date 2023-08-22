@@ -1,12 +1,12 @@
-- first_name: John
+- FirstName: John
   last_name: Kramer
-  age: 30
-- first_name: Srikanth
+  Age: 30
+- FirstName: Srikanth
   last_name: Dade
-  age: 37
-- first_name: Naveen
+  Age: 37
+- FirstName: Naveen
   last_name: Avusali
-  age: 20
-- first_name: Ajay
+  Age: 20
+- FirstName: Ajay
   last_name: panchal
-  age: 22
+  Age: 22

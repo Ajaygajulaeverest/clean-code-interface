@@ -6,6 +6,7 @@ async function userdata() {
   const csvdata = await importcsv();
   const xmldata = xmldataimport();
   const totaldata = ymldata.concat(csvdata, xmldata);
+  totaldata.sort((a, b) => a.Age - b.Age);
   console.log(totaldata);
 }
 userdata();
